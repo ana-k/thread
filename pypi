@@ -1,0 +1,7 @@
+suggest_query(annotations, query, suggestions)
+  ->  query_suggestions [json] (queries)
+
+
+
+search(query, annotations)
+  ->  query_results [json] (documents, document_ids)

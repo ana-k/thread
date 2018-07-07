@@ -1,0 +1,39 @@
+user
+- id
+- names
+- salt
+- hash
+
+
+narrative
+- id
+- creator_id (user)
+
+
+query
+- id
+- content (json)
+- parent_id (narrative)
+
+annotations
+- narrative_id (owner)
+- document_id (owner)
+- user_id
+- query_id (spawner)
+- tag_id
+
+query_suggestions
+- id
+- query_id
+- suggested_query (json)
+- accepted (bool)
+
+tags
+- id
+- name (string)
+  - e.g. relevant, irrelevent, skipped
+
+
+query_suggestion_status
+- boolean (for now)
+- ['accepted', 'unaccepted']

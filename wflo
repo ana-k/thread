@@ -1,0 +1,16 @@
+[ start ]
+
+user -> narrative
+(creates or selects existing)
+
+[ inside a narrative ]
+
+( past queries -> (results w annotations) )
+
+
+narrative -> query
+(user)
+
+( query -> query )
+
+query -> documents
